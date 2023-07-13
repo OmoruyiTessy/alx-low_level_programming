@@ -3,11 +3,11 @@
 /**
  * main - this is the main function
  *
- * return: always 0
+ * Return: always end 0
  */
 
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	return (0);	
+	return (0);
 }
