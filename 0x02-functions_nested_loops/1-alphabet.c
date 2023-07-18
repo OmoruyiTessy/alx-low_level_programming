@@ -3,13 +3,14 @@
 /**
  * main - main is a function
  *
- * Resturn: ends with 0
+ * Return: ends with 0
  */
 
 void print_alphabet(void)
 {
 	int i;
-	for (i = 0; i < 27; i++)
+
+	for (i = 0; i < 26; i++)
 	{
 		_putchar('a' + i);
 	}
