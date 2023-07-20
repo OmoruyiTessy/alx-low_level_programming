@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- * main - followed by a new line.
- * Description: But for multiples of three print Fizz
+ * main - followed by a new line.But for multiples of three print Fizz
  * Return: 0 ends
  */
 
