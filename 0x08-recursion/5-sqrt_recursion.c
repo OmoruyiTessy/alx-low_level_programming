@@ -1,12 +1,21 @@
 #include "main.h"
 /**
- * _sqrt_ - function that returns the natural square
- * @n: an integer
+ * sqrt_ - function that returns the natural square
+ * @x: an integer
+ * @y: integer second
  * Return: -1
  */
-int _sqrt_(int a, int )
+int sqrt_(int x, int y)
 {
-	
+	if (y * y == x)
+	{
+		return (y);
+	}
+	else if (y * y > x)
+	{
+		return (-1);
+	}
+	return (sqrt_(x, y + 1));
 }
 /**
  ** _sqrt_recursion - function that returns the natural square
@@ -15,5 +24,5 @@ int _sqrt_(int a, int )
  **/
 int _sqrt_recursion(int n)
 {
-
+	return (sqrt_(n, 0));
 }
